@@ -4,8 +4,9 @@ import { MongoClient, ServerApiVersion } from 'mongodb';
 import dotenv from 'dotenv'
 dotenv.config()
  
-const MONGO_LOCAL = process.env.MONGO_LOCAL;
-const MONGO_ATLAS = process.env.MONGO_ATLAS;
+//const MONGO_LOCAL = process.env.MONGO_LOCAL;
+const MONGO_LOCAL = 'mongodb://localhost:27017';
+const MONGO_ATLAS = 'mongodb+srv://marcosdelacuadra95:RrB5fx7Zuy73f3Dr@cursonode.kablh3o.mongodb.net/?retryWrites=true&w=majority&appName=CursoNode';
  
 console.log(MONGO_LOCAL, MONGO_ATLAS)
 
