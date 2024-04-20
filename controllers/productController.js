@@ -6,7 +6,8 @@ const { MongoClient } = pkg;
 import dotenv from 'dotenv' 
 dotenv.config()
 const MONGO_ATLAS = process.env.MONGO_ATLAS; 
-const client = new MongoClient(MONGO_ATLAS);
+const client = new MongoClient('mongodb+srv://marcosdelacuadra95:RrB5fx7Zuy73f3Dr@cursonode.kablh3o.mongodb.net/?retryWrites=true&w=majority&appName=CursoNode');
+//const client = new MongoClient(MONGO_ATLAS);
  
 const dbName = 'educacionit';
 /* GET users listing. */
