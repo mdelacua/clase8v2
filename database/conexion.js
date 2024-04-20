@@ -9,10 +9,10 @@ const MONGO_ATLAS = process.env.MONGO_ATLAS;
  
 console.log(MONGO_LOCAL, MONGO_ATLAS)
 
-const client = new MongoClient(MONGO_LOCAL);
+//const client = new MongoClient(MONGO_LOCAL);
 
 const dbName = 'educacionit'; 
- 
+ /*
 const conectarDB = async () => {
     try {
         // Use connect method to connect to the server
@@ -44,7 +44,7 @@ const conectarDB = async () => {
         console.log('error de conexion ' ,error.stack );
     }
 }
-
+*/
 
 //conectar Mongo DB Atlas
 
